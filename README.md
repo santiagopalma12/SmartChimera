@@ -200,5 +200,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  Made with ❤️ for the Feria de Proyectos 2024
+  Made with ❤️ for the Feria de Proyectos 2025
 </p>
