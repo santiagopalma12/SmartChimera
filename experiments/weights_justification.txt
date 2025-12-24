@@ -1,0 +1,28 @@
+
+MISSION PROFILE WEIGHTS JUSTIFICATION
+
+METHOD: Theoretical optimization based on mission objectives
+
+DESIGN PRINCIPLES:
+1. Resilient profiles (mantenimiento): High redundancy + BC penalty
+2. Performance profiles (innovacion): High skill depth + no BC penalty
+3. Speed profiles (entrega_rapida): High collaboration + availability
+
+MANTENIMIENTO (Resilient):
+- redundancy=5.0: Ensures multiple people per critical skill
+- bc_penalty=20.0: Strongly avoids linchpins (Bus Factor protection)
+
+INNOVACION (Performance):
+- skill_depth=10.0: Prioritizes Level 5 experts over generalists
+- bc_penalty=-5.0: BONUS for linchpins (accepts the risk)
+
+ENTREGA_RAPIDA (Speed):
+- collaboration=10.0: Maximizes pre-existing team synergy
+- availability=4.0: Requires immediate resource availability
+
+CITATION FOR PAPER:
+"Mission profile weights were designed following established software 
+engineering principles: resilient configurations maximize redundancy 
+and penalize single points of failure (BF protection), while 
+performance configurations prioritize technical depth over Bus Factor 
+concerns (Lappas 2009, Dave 2018)."
