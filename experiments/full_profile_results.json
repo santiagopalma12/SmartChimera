@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-01-29T17:37:48.588396",
+  "config": {
+    "n_simulations": 50,
+    "team_size": 5,
+    "n_candidates": 80,
+    "n_skills_required": 3,
+    "beam_width": 10,
+    "random_seed": 42,
+    "all_skills": [
+      "Python",
+      "React",
+      "Docker",
+      "AWS",
+      "Kubernetes",
+      "PostgreSQL",
+      "MongoDB",
+      "TypeScript",
+      "Java",
+      "Go",
+      "ML",
+      "DevOps",
+      "Security",
+      "Testing",
+      "Agile"
+    ]
+  },
+  "results": {
+    "mantenimiento": {
+      "mean_risk": 0.007049541609946103,
+      "mean_skill": 3.238410231671527,
+      "mean_coverage": 0.9066666666666666,
+      "mean_redundancy": 3.286666666666666
+    },
+    "junior_training": {
+      "mean_risk": 0.004905981336707227,
+      "mean_skill": 3.2295863657107833,
+      "mean_coverage": 0.8599999999999999,
+      "mean_redundancy": 2.9799999999999995
+    },
+    "legacy_rescue": {
+      "mean_risk": 0.00668699152233834,
+      "mean_skill": 3.6589525523317428,
+      "mean_coverage": 1.0,
+      "mean_redundancy": 2.9466666666666668
+    },
+    "security_audit": {
+      "mean_risk": 0.007796515555764315,
+      "mean_skill": 3.5137001942866437,
+      "mean_coverage": 0.9133333333333334,
+      "mean_redundancy": 3.1333333333333333
+    },
+    "cloud_migration": {
+      "mean_risk": 0.0067876323320366595,
+      "mean_skill": 3.92433916081859,
+      "mean_coverage": 1.0,
+      "mean_redundancy": 2.586666666666667
+    },
+    "entrega_rapida": {
+      "mean_risk": 0.007433415031182198,
+      "mean_skill": 3.912723713569158,
+      "mean_coverage": 1.0,
+      "mean_redundancy": 2.626666666666667
+    },
+    "crisis_response": {
+      "mean_risk": 0.0071709372957261056,
+      "mean_skill": 4.113465648237645,
+      "mean_coverage": 1.0,
+      "mean_redundancy": 2.233333333333334
+    },
+    "innovacion": {
+      "mean_risk": 0.0073844815948977795,
+      "mean_skill": 4.311492951868334,
+      "mean_coverage": 0.9199999999999998,
+      "mean_redundancy": 1.7933333333333337
+    },
+    "architecture_review": {
+      "mean_risk": 0.0075206388120100075,
+      "mean_skill": 4.301325853057321,
+      "mean_coverage": 0.96,
+      "mean_redundancy": 1.8133333333333335
+    },
+    "greedy": {
+      "mean_risk": 0.008212674904395853,
+      "mean_skill": 3.383754914757479,
+      "mean_coverage": 0.9933333333333333,
+      "mean_redundancy": 3.3
+    }
+  }
+}
